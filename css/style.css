@@ -13,6 +13,7 @@
 	--heading-color: #3f3a64;
 	--small-heading-color: #7e7d7d;
 	--border-color: transparent;
+	--border-light-color: #eee;
 	--border-radius: 8px;
 	--dropdown-color: #ffffff;
 	--layer: rgba(29, 42, 55, 0.7);
@@ -25,6 +26,7 @@
 	--section-bg-color: #100f19;
 	--heading-color: #eeeeee;
 	--border-color: rgba(255, 255, 255, 0.2);
+	--border-light-color: rgba(255, 255, 255, 0.2);
 	--dropdown-color: #151421;
 }
 
@@ -880,7 +882,7 @@ ul {
 	transform: translateY(0);
 }
 .gallery .gallery__company {
-	border-top: 1px solid var(--border-color);
+	border-top: 1px solid var(--border-light-color);
 }
 .gallery .gallery__company img {
 	padding: 0 18px;
@@ -1082,7 +1084,7 @@ ul {
 }
 .blog__card .card-footer {
 	background-color: var(--bg-color);
-	border-top: 1px solid #eee;
+	border-top: 1px solid var(--border-light-color);
 }
 .blog__card .card-footer img {
 	border-radius: 50%;
